@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32EB30D1BBE5FA200931380 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32EB30C1BBE5FA200931380 /* SpriteKit.framework */; };
+		D3510B5F1BF13CF600E56945 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33309EA1BBFC2A300101D27 /* AVFoundation.framework */; };
+		D3510B641BF140DA00E56945 /* rr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3510B631BF140DA00E56945 /* rr.mp3 */; };
+		D3510B661BF1422A00E56945 /* vz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3510B651BF1422A00E56945 /* vz.mp3 */; };
+		D37FC1C21BBDA76000E44745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1C11BBDA76000E44745 /* main.m */; };
+		D37FC1C51BBDA76000E44745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1C41BBDA76000E44745 /* AppDelegate.m */; };
+		D37FC1C81BBDA76000E44745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1C71BBDA76000E44745 /* ViewController.m */; };
+		D37FC1CB1BBDA76000E44745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37FC1C91BBDA76000E44745 /* Main.storyboard */; };
+		D37FC1CD1BBDA76000E44745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37FC1CC1BBDA76000E44745 /* Assets.xcassets */; };
+		D37FC1D01BBDA76000E44745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37FC1CE1BBDA76000E44745 /* LaunchScreen.storyboard */; };
+		D37FC1DB1BBDA76000E44745 /* flightDynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1DA1BBDA76000E44745 /* flightDynamicsTests.m */; };
+		D37FC1E61BBDA76000E44745 /* flightDynamicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1E51BBDA76000E44745 /* flightDynamicsUITests.m */; };
+		D37FC1F61BBDA83B00E44745 /* func.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC1F51BBDA83B00E44745 /* func.m */; };
+		D37FC2021BBDAD3E00E44745 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FC2011BBDAD3E00E44745 /* TableViewController.m */; };
+		D39D1D901BF1116400C78105 /* ISPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D1D8D1BF1116400C78105 /* ISPoint.m */; };
+		D39D1D911BF1116400C78105 /* ISTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D1D8F1BF1116400C78105 /* ISTest.m */; };
+		D39D1D971BF111F100C78105 /* ISTabl.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D1D961BF111F100C78105 /* ISTabl.m */; };
+		D3B428F91BBDC2F70029DDE2 /* ISViewPopController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B428F81BBDC2F70029DDE2 /* ISViewPopController.m */; };
+		D3D3AB441BEBEE1D00552DDB /* ISAnimationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D3AB431BEBEE1D00552DDB /* ISAnimationClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37FC1D71BBDA76000E44745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37FC1B51BBDA76000E44745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37FC1BC1BBDA76000E44745;
+			remoteInfo = flightDynamics;
+		};
+		D37FC1E21BBDA76000E44745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37FC1B51BBDA76000E44745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37FC1BC1BBDA76000E44745;
+			remoteInfo = flightDynamics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32EB30C1BBE5FA200931380 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D33309EA1BBFC2A300101D27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D3510B631BF140DA00E56945 /* rr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rr.mp3; sourceTree = "<group>"; };
+		D3510B651BF1422A00E56945 /* vz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vz.mp3; sourceTree = "<group>"; };
+		D37FC1BD1BBDA76000E44745 /* flightDynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flightDynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37FC1C11BBDA76000E44745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D37FC1C31BBDA76000E44745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D37FC1C41BBDA76000E44745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D37FC1C61BBDA76000E44745 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D37FC1C71BBDA76000E44745 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D37FC1CA1BBDA76000E44745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37FC1CC1BBDA76000E44745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D37FC1CF1BBDA76000E44745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D37FC1D11BBDA76000E44745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37FC1D61BBDA76000E44745 /* flightDynamicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flightDynamicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37FC1DA1BBDA76000E44745 /* flightDynamicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flightDynamicsTests.m; sourceTree = "<group>"; };
+		D37FC1DC1BBDA76000E44745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37FC1E11BBDA76000E44745 /* flightDynamicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flightDynamicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37FC1E51BBDA76000E44745 /* flightDynamicsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flightDynamicsUITests.m; sourceTree = "<group>"; };
+		D37FC1E71BBDA76000E44745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37FC1F41BBDA83B00E44745 /* func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = func.h; sourceTree = "<group>"; };
+		D37FC1F51BBDA83B00E44745 /* func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = func.m; sourceTree = "<group>"; };
+		D37FC2001BBDAD3E00E44745 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D37FC2011BBDAD3E00E44745 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D39D1D8C1BF1116400C78105 /* ISPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPoint.h; sourceTree = "<group>"; };
+		D39D1D8D1BF1116400C78105 /* ISPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPoint.m; sourceTree = "<group>"; };
+		D39D1D8E1BF1116400C78105 /* ISTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTest.h; sourceTree = "<group>"; };
+		D39D1D8F1BF1116400C78105 /* ISTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTest.m; sourceTree = "<group>"; };
+		D39D1D951BF111F100C78105 /* ISTabl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTabl.h; sourceTree = "<group>"; };
+		D39D1D961BF111F100C78105 /* ISTabl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTabl.m; sourceTree = "<group>"; };
+		D3B428F71BBDC2F70029DDE2 /* ISViewPopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISViewPopController.h; sourceTree = "<group>"; };
+		D3B428F81BBDC2F70029DDE2 /* ISViewPopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISViewPopController.m; sourceTree = "<group>"; };
+		D3D3AB421BEBEE1D00552DDB /* ISAnimationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAnimationClass.h; sourceTree = "<group>"; };
+		D3D3AB431BEBEE1D00552DDB /* ISAnimationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAnimationClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37FC1BA1BBDA76000E44745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3510B5F1BF13CF600E56945 /* AVFoundation.framework in Frameworks */,
+				D32EB30D1BBE5FA200931380 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1D31BBDA76000E44745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1DE1BBDA76000E44745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37FC1B41BBDA76000E44745 = {
+			isa = PBXGroup;
+			children = (
+				D33309EA1BBFC2A300101D27 /* AVFoundation.framework */,
+				D32EB30C1BBE5FA200931380 /* SpriteKit.framework */,
+				D37FC1BF1BBDA76000E44745 /* flightDynamics */,
+				D37FC1D91BBDA76000E44745 /* flightDynamicsTests */,
+				D37FC1E41BBDA76000E44745 /* flightDynamicsUITests */,
+				D37FC1BE1BBDA76000E44745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37FC1BE1BBDA76000E44745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC1BD1BBDA76000E44745 /* flightDynamics.app */,
+				D37FC1D61BBDA76000E44745 /* flightDynamicsTests.xctest */,
+				D37FC1E11BBDA76000E44745 /* flightDynamicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37FC1BF1BBDA76000E44745 /* flightDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC1C31BBDA76000E44745 /* AppDelegate.h */,
+				D37FC1C41BBDA76000E44745 /* AppDelegate.m */,
+				D37FC1F31BBDA7DB00E44745 /*  mathModel */,
+				D3B428F71BBDC2F70029DDE2 /* ISViewPopController.h */,
+				D3B428F81BBDC2F70029DDE2 /* ISViewPopController.m */,
+				D37FC1C61BBDA76000E44745 /* ViewController.h */,
+				D37FC1C71BBDA76000E44745 /* ViewController.m */,
+				D37FC2001BBDAD3E00E44745 /* TableViewController.h */,
+				D37FC2011BBDAD3E00E44745 /* TableViewController.m */,
+				D37FC1C91BBDA76000E44745 /* Main.storyboard */,
+				D3D3AB421BEBEE1D00552DDB /* ISAnimationClass.h */,
+				D3D3AB431BEBEE1D00552DDB /* ISAnimationClass.m */,
+				D3510B651BF1422A00E56945 /* vz.mp3 */,
+				D3510B631BF140DA00E56945 /* rr.mp3 */,
+				D37FC1CC1BBDA76000E44745 /* Assets.xcassets */,
+				D37FC1CE1BBDA76000E44745 /* LaunchScreen.storyboard */,
+				D37FC1D11BBDA76000E44745 /* Info.plist */,
+				D37FC1C01BBDA76000E44745 /* Supporting Files */,
+			);
+			path = flightDynamics;
+			sourceTree = "<group>";
+		};
+		D37FC1C01BBDA76000E44745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC1C11BBDA76000E44745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37FC1D91BBDA76000E44745 /* flightDynamicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC1DA1BBDA76000E44745 /* flightDynamicsTests.m */,
+				D37FC1DC1BBDA76000E44745 /* Info.plist */,
+			);
+			path = flightDynamicsTests;
+			sourceTree = "<group>";
+		};
+		D37FC1E41BBDA76000E44745 /* flightDynamicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC1E51BBDA76000E44745 /* flightDynamicsUITests.m */,
+				D37FC1E71BBDA76000E44745 /* Info.plist */,
+			);
+			path = flightDynamicsUITests;
+			sourceTree = "<group>";
+		};
+		D37FC1F31BBDA7DB00E44745 /*  mathModel */ = {
+			isa = PBXGroup;
+			children = (
+				D39D1D951BF111F100C78105 /* ISTabl.h */,
+				D39D1D961BF111F100C78105 /* ISTabl.m */,
+				D37FC1F41BBDA83B00E44745 /* func.h */,
+				D37FC1F51BBDA83B00E44745 /* func.m */,
+				D39D1D8C1BF1116400C78105 /* ISPoint.h */,
+				D39D1D8D1BF1116400C78105 /* ISPoint.m */,
+				D39D1D8E1BF1116400C78105 /* ISTest.h */,
+				D39D1D8F1BF1116400C78105 /* ISTest.m */,
+			);
+			name = " mathModel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37FC1BC1BBDA76000E44745 /* flightDynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37FC1EA1BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamics" */;
+			buildPhases = (
+				D37FC1B91BBDA76000E44745 /* Sources */,
+				D37FC1BA1BBDA76000E44745 /* Frameworks */,
+				D37FC1BB1BBDA76000E44745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flightDynamics;
+			productName = flightDynamics;
+			productReference = D37FC1BD1BBDA76000E44745 /* flightDynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37FC1D51BBDA76000E44745 /* flightDynamicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37FC1ED1BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamicsTests" */;
+			buildPhases = (
+				D37FC1D21BBDA76000E44745 /* Sources */,
+				D37FC1D31BBDA76000E44745 /* Frameworks */,
+				D37FC1D41BBDA76000E44745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37FC1D81BBDA76000E44745 /* PBXTargetDependency */,
+			);
+			name = flightDynamicsTests;
+			productName = flightDynamicsTests;
+			productReference = D37FC1D61BBDA76000E44745 /* flightDynamicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D37FC1E01BBDA76000E44745 /* flightDynamicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37FC1F01BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamicsUITests" */;
+			buildPhases = (
+				D37FC1DD1BBDA76000E44745 /* Sources */,
+				D37FC1DE1BBDA76000E44745 /* Frameworks */,
+				D37FC1DF1BBDA76000E44745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37FC1E31BBDA76000E44745 /* PBXTargetDependency */,
+			);
+			name = flightDynamicsUITests;
+			productName = flightDynamicsUITests;
+			productReference = D37FC1E11BBDA76000E44745 /* flightDynamicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37FC1B51BBDA76000E44745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ivan Smirnov";
+				TargetAttributes = {
+					D37FC1BC1BBDA76000E44745 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D37FC1D51BBDA76000E44745 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TEKXABUZ4Q;
+						TestTargetID = D37FC1BC1BBDA76000E44745;
+					};
+					D37FC1E01BBDA76000E44745 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TEKXABUZ4Q;
+						TestTargetID = D37FC1BC1BBDA76000E44745;
+					};
+				};
+			};
+			buildConfigurationList = D37FC1B81BBDA76000E44745 /* Build configuration list for PBXProject "flightDynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37FC1B41BBDA76000E44745;
+			productRefGroup = D37FC1BE1BBDA76000E44745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37FC1BC1BBDA76000E44745 /* flightDynamics */,
+				D37FC1D51BBDA76000E44745 /* flightDynamicsTests */,
+				D37FC1E01BBDA76000E44745 /* flightDynamicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37FC1BB1BBDA76000E44745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3510B661BF1422A00E56945 /* vz.mp3 in Resources */,
+				D3510B641BF140DA00E56945 /* rr.mp3 in Resources */,
+				D37FC1D01BBDA76000E44745 /* LaunchScreen.storyboard in Resources */,
+				D37FC1CD1BBDA76000E44745 /* Assets.xcassets in Resources */,
+				D37FC1CB1BBDA76000E44745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1D41BBDA76000E44745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1DF1BBDA76000E44745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37FC1B91BBDA76000E44745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37FC1C81BBDA76000E44745 /* ViewController.m in Sources */,
+				D3D3AB441BEBEE1D00552DDB /* ISAnimationClass.m in Sources */,
+				D39D1D901BF1116400C78105 /* ISPoint.m in Sources */,
+				D37FC1F61BBDA83B00E44745 /* func.m in Sources */,
+				D37FC1C51BBDA76000E44745 /* AppDelegate.m in Sources */,
+				D37FC1C21BBDA76000E44745 /* main.m in Sources */,
+				D3B428F91BBDC2F70029DDE2 /* ISViewPopController.m in Sources */,
+				D39D1D911BF1116400C78105 /* ISTest.m in Sources */,
+				D39D1D971BF111F100C78105 /* ISTabl.m in Sources */,
+				D37FC2021BBDAD3E00E44745 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1D21BBDA76000E44745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37FC1DB1BBDA76000E44745 /* flightDynamicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37FC1DD1BBDA76000E44745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37FC1E61BBDA76000E44745 /* flightDynamicsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37FC1D81BBDA76000E44745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37FC1BC1BBDA76000E44745 /* flightDynamics */;
+			targetProxy = D37FC1D71BBDA76000E44745 /* PBXContainerItemProxy */;
+		};
+		D37FC1E31BBDA76000E44745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37FC1BC1BBDA76000E44745 /* flightDynamics */;
+			targetProxy = D37FC1E21BBDA76000E44745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37FC1C91BBDA76000E44745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37FC1CA1BBDA76000E44745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37FC1CE1BBDA76000E44745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37FC1CF1BBDA76000E44745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37FC1E81BBDA76000E44745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D37FC1E91BBDA76000E44745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37FC1EB1BBDA76000E44745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = flightDynamics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D37FC1EC1BBDA76000E44745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = flightDynamics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D37FC1EE1BBDA76000E44745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flightDynamicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flightDynamics.app/flightDynamics";
+			};
+			name = Debug;
+		};
+		D37FC1EF1BBDA76000E44745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = flightDynamicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flightDynamics.app/flightDynamics";
+			};
+			name = Release;
+		};
+		D37FC1F11BBDA76000E44745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flightDynamicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flightDynamics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D37FC1F21BBDA76000E44745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = flightDynamicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IS.com.flightDynamicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = flightDynamics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37FC1B81BBDA76000E44745 /* Build configuration list for PBXProject "flightDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37FC1E81BBDA76000E44745 /* Debug */,
+				D37FC1E91BBDA76000E44745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37FC1EA1BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37FC1EB1BBDA76000E44745 /* Debug */,
+				D37FC1EC1BBDA76000E44745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37FC1ED1BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37FC1EE1BBDA76000E44745 /* Debug */,
+				D37FC1EF1BBDA76000E44745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37FC1F01BBDA76000E44745 /* Build configuration list for PBXNativeTarget "flightDynamicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37FC1F11BBDA76000E44745 /* Debug */,
+				D37FC1F21BBDA76000E44745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37FC1B51BBDA76000E44745 /* Project object */;
+}
